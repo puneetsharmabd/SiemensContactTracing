@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitybackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_50"
+        android:text="GET STARTED"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/myriad_pro_regular"
+        android:id="@+id/getStarted"
+        android:onClick="getStartedClicked"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_20"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingRight="@dimen/margin_16">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/joinhandswithoutnextline"
+        android:textColor="@android:color/white"
+        android:id="@+id/joinHands"
+        android:fontFamily="@font/myriad_pro_regular"
+        android:layout_above="@+id/getStarted"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_15">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started"
+        android:fontFamily="@font/myriad_pro_regular"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_30"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/joinHands"
+        android:layout_marginBottom="@dimen/margin_16"
+        >
+    </TextView>
+</RelativeLayout>

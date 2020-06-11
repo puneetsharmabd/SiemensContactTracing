@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SiemensContactTracing</string>
+    <string name="covid19">Covid 19</string>
+    <string name="joinhands">Join hands to keep our campus \n pandemic free</string>
+    <string name="joinhandswithoutnextline">Join hands to keep our campus pandemic free</string>
+</resources>
